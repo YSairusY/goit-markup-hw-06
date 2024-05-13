@@ -241,6 +241,12 @@ mob-menu
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mob-menu-exit-btn:hover,
+.mob-menu-exit-btn:focus {
+  background-color: #404bbf;
+  fill: #ffffff;
+}
+
 .mob-menu-nav {
   margin-bottom: 168px;
 }
@@ -259,6 +265,10 @@ mob-menu
   color: #2e2f42;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 16px;
+}
+
+.mob-menu-select {
+  color: #404bbf;
 }
 
 .mob-menu-address {
@@ -303,6 +313,11 @@ mob-menu
   background-color: #4d5ae5;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-menu-social-link:hover,
+.mob-menu-social-link:focus {
+  background-color: #404bbf;
 }
 
 .mob-menu-social-icon {
